@@ -90,7 +90,7 @@ print(masked_text)
 ### 3.2. Machine Suggest Translation
 This function further refines machine-translated text by suggesting alternative words for masked words. It can be used in two different approaches through the library.
 
-#### Approach 1:
+#### 3.2.1. Approach 1:
 ```python
 from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
 from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
@@ -112,7 +112,7 @@ suggested_text = hybrid.machine_suggest(text=masked_text, changes=changes)
 print(suggested_text)
 ```
 
-#### Approach 2:
+#### 3.2.2. Approach 2:
 ```python
 from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
 from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
