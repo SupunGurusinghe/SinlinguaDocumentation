@@ -8,7 +8,7 @@ Contributions to improve and expand සිංLingua are welcome! Feel free to su
 
 # License
 
-This library is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This library is licensed under the MIT License. See the [LICENSE](https://github.com/SupunGurusinghe/SinlinguaDocumentation/blob/main/LICENSE) file for details.
 
 ---
 
