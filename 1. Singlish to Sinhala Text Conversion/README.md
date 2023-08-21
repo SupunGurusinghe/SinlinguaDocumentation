@@ -29,7 +29,7 @@ The Singlish to Sinhala text conversion component of සිංLingua offers mult
 The **Rule-Based Translation** approach involves converting Singlish text to Sinhala using a predefined set of rules. This method is efficient and provides quick translations based on specific patterns. To use this approach, the library provides a class `RuleBasedTransliterator`, which can be used as follows:
 
 ```python
-from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
+from sinlingua.singlish.rulebased_transliterator import RuleBasedTransliterator
 
 transliterator = RuleBasedTransliterator()
 
@@ -49,7 +49,7 @@ The **Machine Translation** approach using the FastText model involves leveragin
  To use this approach, the library provides a class `MachineTransliterator`. Here's how to use the MachineTransliterator with the FastText model:
 
 ```python
-from sinhala_data_processor.singlish.machine_transliterator import MachineTransliterator
+from sinlingua.singlish.machine_transliterator import MachineTransliterator
 
 # initialize the Machine Transliterator with the FastText model
 fasttext_model_path = "path/to/model/cc.si.300.vec"
@@ -71,7 +71,7 @@ FastText model can be downloaded by using the given url:
 The **Hybrid Translation** approach combines the rule-based and machine translation methods to provide accurate and context-aware translations. This approach offers a balance between efficiency and accuracy. The `HybridTransliterator` class is also used for this approach:
 
 ```python
-from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
+from sinlingua.singlish.hybrid_transliterator import HybridTransliterator
 
 transliterator = HybridTransliterator(api_key="YOUR_OPENAI_API_KEY", org_key="YOUR_ORGANIZATION_KEY")
 
@@ -83,7 +83,7 @@ print(sinhala_text)
 This function enhances machine-translated text by masking misspelled Sinhala words. It identifies misspelled Sinhala words and replaces them with a mask `"<mask>"` to improve text flow.
 
 ```python
-from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
+from sinlingua.singlish.hybrid_transliterator import HybridTransliterator
 
 hybrid = HybridTransliterator(api_key="YOUR_OPENAI_API_KEY", org_key="YOUR_ORGANIZATION_KEY")
 
@@ -97,9 +97,9 @@ This function further refines machine-translated text by suggesting alternative 
 
 #### 3.2.1. Approach 1
 ```python
-from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
-from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
-from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+from sinlingua.singlish.rulebased_transliterator import RuleBasedTransliterator
+from sinlingua.singlish.hybrid_transliterator import HybridTransliterator
+from sinlingua.singlish.manual_transliterator import ManualTransliterator
 
 rulebased = RuleBasedTransliterator()
 hybrid = HybridTransliterator(api_key="YOUR_OPENAI_API_KEY", org_key="YOUR_ORGANIZATION_KEY")
@@ -119,9 +119,9 @@ print(suggested_text)
 
 #### 3.2.2. Approach 2
 ```python
-from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
-from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
-from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+from sinlingua.singlish.rulebased_transliterator import RuleBasedTransliterator
+from sinlingua.singlish.hybrid_transliterator import HybridTransliterator
+from sinlingua.singlish.manual_transliterator import ManualTransliterator
 
 rulebased = RuleBasedTransliterator()
 hybrid = HybridTransliterator(api_key="YOUR_OPENAI_API_KEY", org_key="YOUR_ORGANIZATION_KEY")
@@ -145,7 +145,7 @@ print(suggested_text)
 
 #### To view the default prompts:
 ```python
-from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
+from sinlingua.singlish.hybrid_transliterator import HybridTransliterator
 
 hybrid = HybridTransliterator()
 
@@ -166,7 +166,7 @@ The **Manual Translation** approach allows you to manually manipulate and modify
 The first step in manual translation is generating coordinates for each word in the Sinhala text. Coordinates uniquely identify each word and its position in the text. This can be done using the `generate_coordinates` method. 
 
 ```python
-from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+from sinlingua.singlish.manual_transliterator import ManualTransliterator
 
 manual = ManualTransliterator()
 sinhala_text = "YOUR_SINHALA_TEXT"
@@ -191,7 +191,7 @@ manual.to_csv(dataframe=df, file="dataframe.csv")
 This method allows you to manually replace specific cells in the coordinate plane with desired words. You need to generate coordinates using the `generate_coordinates` method. Then, create a replacement dictionary where keys are the coordinates to be replaced and values are the replacement words. The `replace_cells` method returns a new dataframe with the changes applied.
 
 ```python
-from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+from sinlingua.singlish.manual_transliterator import ManualTransliterator
 
 manual = ManualTransliterator()
 sinhala_text = "MISSPELLED_SINHALA_TEXT"
@@ -220,7 +220,7 @@ print(original_df)
 Manual masking involves masking specific words in the coordinate plane to be replaced later. Similar to the previous steps, you generate coordinates using the `generate_coordinates` method. Specify the coordinates you want to mask, and then use the `manual_mask` method. The resulting `reconstructed_text` can be passed to the `machine_suggest` method from the Hybrid Translation approach to find the best-matching words for the masked positions.
 
 ```python
-from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+from sinlingua.singlish.manual_transliterator import ManualTransliterator
 
 manual = ManualTransliterator()
 sinhala_text = "MISSPELLED_SINHALA_TEXT"
@@ -239,7 +239,7 @@ print(reconstructed_text)
 Finally, the `reconstruct_text` method allows you to convert the modified dataframe back into a text. This step completes the manual translation process.
 
 ```python
-from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+from sinlingua.singlish.manual_transliterator import ManualTransliterator
 
 manual = ManualTransliterator()
 sinhala_text = "YOUR_SINHALA_TEXT"
@@ -269,10 +269,10 @@ To use the Singlish to Sinhala text conversion component of සිංLingua, fol
 
 2. Import the required classes for the chosen translation approach:
    ```python
-   from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
-   from sinhala_data_processor.singlish.machine_transliterator import MachineTransliterator
-   from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
-   from sinhala_data_processor.singlish.manual_transliterator import ManualTransliterator
+   from sinlingua.singlish.rulebased_transliterator import RuleBasedTransliterator
+   from sinlingua.singlish.machine_transliterator import MachineTransliterator
+   from sinlingua.singlish.hybrid_transliterator import HybridTransliterator
+   from sinlingua.singlish.manual_transliterator import ManualTransliterator
    ```
 
 3. Initialize the transliterator class based on your chosen approach:
