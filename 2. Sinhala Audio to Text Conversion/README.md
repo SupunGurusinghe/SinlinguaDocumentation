@@ -1,4 +1,4 @@
-[![Previous](https://img.shields.io/badge/previous-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/1.%20Singlish%20to%20Sinhala%20Text%20Conversion#readme)
-[![Home](https://img.shields.io/badge/home-orange.svg)]([#introduction](https://github.com/SupunGurusinghe/SinlinguaDocumentation#readme))
+[![Previous](https://img.shields.io/badge/previous-green.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/1.%20Singlish%20to%20Sinhala%20Text%20Conversion#readme)
+[![Home](https://img.shields.io/badge/home-orange.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation#readme))
 [![Next](https://img.shields.io/badge/next-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/3.%20Sinhala%20Grammar%20Conversion#readme
 )
