@@ -264,7 +264,7 @@ To use the Singlish to Sinhala text conversion component of සිංLingua, fol
 
 1. Install the සිංLingua library:
    ```bash
-   pip install sinhala_data_processor
+   pip install sinlingua
    ```
 
 2. Import the required classes for the chosen translation approach:
