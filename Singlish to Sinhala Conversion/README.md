@@ -231,11 +231,12 @@ print(constructed_text)
 These manual translation methods provide flexibility and control over the translation process, enabling you to refine translations based on specific requirements.
 
 ---
-For usage examples and detailed documentation, visit the [සිංLingua GitHub repository](https://github.com/yourusername/your-repo).
-```
+For usage examples and detailed documentation, visit the [සිංLingua GitHub repository](https://github.com/SupunGurusinghe/SinlinguaDocumentation).
+
+
 Please remember to replace `"YOUR_SINHALA_TEXT"` and `"MISSPELLED_SINHALA_TEXT"` with the actual Sinhala text you are working with. Also, replace `"YOUR_USERNAME/REPO"` with your actual GitHub repository information.
 
-## Getting Started
+# Getting Started
 
 To use the Singlish to Sinhala text conversion component of සිංLingua, follow these steps:
 
@@ -266,20 +267,3 @@ To use the Singlish to Sinhala text conversion component of සිංLingua, fol
 
 - Make sure to replace `"YOUR_OPENAI_API_KEY"` and `"YOUR_ORGANIZATION_KEY"` with your actual OpenAI API key and organization key.
 
-# Contributing
-
-Contributions to improve and expand සිංLingua are welcome! Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/yourusername/your-repo).
-
-# License
-
-This library is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-For information about other components of සිංLingua, such as audio to text conversion, grammar conversion, data cleaning, preprocessing, and Sinhala summarization, refer to the specific sections in the README.
-
-For usage examples and detailed documentation, visit the [සිංLingua GitHub repository](https://github.com/yourusername/your-repo).
-
-For any questions or assistance, please contact support@example.com.
-
-Happy Sinhala language data processing with සිංLingua!
