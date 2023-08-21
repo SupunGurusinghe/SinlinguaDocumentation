@@ -8,21 +8,12 @@
 [![License](https://img.shields.io/github/license/SupunGurusinghe/SinlinguaDocumentation)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/blob/main/LICENSE)
 
 ## Table of Contents
-- [Authors](#authors)
 - [Contributing](#contributing)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Library Functions](#library-functions)
 - [License](#license)
-
-## Authors
-
-- Supun Gurusinghe
-- Sandaruwini Galappaththi
-- Supun Wijesinghe
-- Binura Yasodya
-
-For any inquiries or feedback, you can contact us at sssbprojects@gmail.com.
+- [Authors](#authors)
 
 ## Contributing
 
@@ -61,5 +52,15 @@ This library is licensed under the MIT License. See the [LICENSE](https://github
 
 You can take this Markdown code and paste it into your README file on GitHub or any other platform that supports Markdown rendering. Make sure to replace the placeholder content with your actual library information and links.
 ```
+
+## Authors
+
+- Supun Gurusinghe
+- Sandaruwini Galappaththi
+- Supun Wijesinghe
+- Binura Yasodya
+
+For any inquiries or feedback, you can contact us at sssbprojects@gmail.com.
+
 
 [![Next](https://img.shields.io/badge/next-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/1.%20Singlish%20to%20Sinhala%20Text%20Conversion/README.md)
