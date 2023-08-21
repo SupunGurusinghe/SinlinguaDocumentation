@@ -117,7 +117,7 @@ suggested_text = hybrid.machine_suggest(text=masked_text, changes=changes)
 print(suggested_text)
 ```
 
-### Other optional parameters
+### Optional parameters
 1. `prompt_masking: str` For change masking prompt from the default prompt
 2. `prompt_suggestion: str` For change word suggesting prompt from the default prompt
 
@@ -161,7 +161,7 @@ To visualize the coordinates, you can export them to a CSV file using the `to_cs
 manual.to_csv(dataframe=df, file="dataframe.csv")
 ```
 
-### Other optional parameters
+### Optional parameters
 1.  `max_columns: int` You can specify the maximum number of columns in the coordinate plane.
 
 ### 2. Replace Cells
