@@ -1,8 +1,4 @@
-# සිංLingua: Sinhala Language Data Processing Library
-
-**සිංLingua** is a Python library designed for Sinhala language data processing tasks. This library provides various components to assist in Sinhala language processing, including audio to text conversion, grammar conversion, Singlish to Sinhala text conversion, data cleaning and preprocessing, and Sinhala summarization. In this README, we will focus on the Singlish to Sinhala text conversion component.
-
-## Singlish to Sinhala Text Conversion
+# Singlish to Sinhala Text Conversion
 
 The Singlish to Sinhala text conversion component of සිංLingua offers multiple approaches to translate Singlish text to Sinhala. These approaches are designed to suit different requirements and accuracy levels.
 
