@@ -135,7 +135,7 @@ suggested_text = hybrid.machine_suggest(text=masked_text, changes=changes)
 print(suggested_text)
 ```
 
-### Optional parameters
+### Optional Parameters
 1. `prompt_masking: str` For change masking prompt from the default prompt
 2. `prompt_suggestion: str` For change word suggesting prompt from the default prompt
 
