@@ -35,11 +35,11 @@ import sinlingua
 
 This library has 5 functions:
 
-1. [Singlish to Sinhala Text Conversion](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/1.%20Singlish%20to%20Sinhala%20Text%20Conversion)
-2. [Sinhala Audio to Text Conversion](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/2.%20Sinhala%20Audio%20to%20Text%20Conversion)
-3. [Sinhala Grammar Conversion](https://github.com/SupunGurusinghe/SinlinguaDocumentation#:~:text=3.%20Sinhala%20Grammar%20Conversion)
-4. [Sinhala Text Preprocessing](https://github.com/SupunGurusinghe/SinlinguaDocumentation#:~:text=4.%20Sinhala%20Text%20Preprocessing)
-5. [Sinhala Text Summarization](https://github.com/SupunGurusinghe/SinlinguaDocumentation#:~:text=5.%20Sinhala%20Text%20Summarization)
+1. [Singlish to Sinhala Text Conversion](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/1.%20Singlish%20to%20Sinhala%20Text%20Conversion#readme)
+2. [Sinhala Audio to Text Conversion](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/2.%20Sinhala%20Audio%20to%20Text%20Conversion#readme)
+3. [Sinhala Grammar Conversion](https://github.com/SupunGurusinghe/SinlinguaDocumentation#:~:text=3.%20Sinhala%20Grammar%20Conversion#readme)
+4. [Sinhala Text Preprocessing](https://github.com/SupunGurusinghe/SinlinguaDocumentation#:~:text=4.%20Sinhala%20Text%20Preprocessing#readme)
+5. [Sinhala Text Summarization](https://github.com/SupunGurusinghe/SinlinguaDocumentation#:~:text=5.%20Sinhala%20Text%20Summarization#readme)
 
 For detailed documentation on each function, visit the [සිංLingua GitHub repository](https://github.com/SupunGurusinghe/SinlinguaDocumentation).
 
