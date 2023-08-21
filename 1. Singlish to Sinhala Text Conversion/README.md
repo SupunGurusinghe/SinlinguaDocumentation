@@ -2,11 +2,9 @@
 
 The Singlish to Sinhala text conversion component of සිංLingua offers multiple approaches to translate Singlish text to Sinhala. These approaches are designed to suit different requirements and accuracy levels.
 
-**Usual tools**
-- "oyata den kohomada" -> ඔයට ඩෙන් කොහොමඩ
+`Usual tools` "oyata den kohomada" -> ඔයට ඩෙන් කොහොමඩ
 
-**සිංLingua library**
-- "oyata den kohomada" -> ඔයාට දැන් කොහොමද (oyaata dhaen kohomadha)
+`සිංLingua library` "oyata den kohomada" -> ඔයාට දැන් කොහොමද (oyaata dhaen kohomadha)
 
 ## Table of Contents
 - [Singlish to Sinhala Text Conversion](#singlish-to-sinhala-text-conversion)
