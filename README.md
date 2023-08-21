@@ -7,6 +7,14 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/SupunGurusinghe/SinlinguaDocumentation)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/pulls)
 [![License](https://img.shields.io/github/license/SupunGurusinghe/SinlinguaDocumentation)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/blob/main/LICENSE)
 
+## Table of Contents
+- [Authors](#authors)
+- [Contributing](#contributing)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Library Functions](#library-functions)
+- [License](#license)
+
 ## Authors
 
 - Supun Gurusinghe
@@ -15,13 +23,6 @@
 - Binura Yasodya
 
 For any inquiries or feedback, you can contact us at sssbprojects@gmail.com.
-
-## Table of Contents
-- [Contributing](#contributing)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Library Functions](#library-functions)
-- [License](#license)
 
 ## Contributing
 
