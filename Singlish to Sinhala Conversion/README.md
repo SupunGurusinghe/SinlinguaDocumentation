@@ -2,7 +2,7 @@
 
 The Singlish to Sinhala text conversion component of සිංLingua offers multiple approaches to translate Singlish text to Sinhala. These approaches are designed to suit different requirements and accuracy levels.
 
-### 1. Rule-Based Translation
+## 1. Rule-Based Translation
 
 The **Rule-Based Translation** approach involves converting Singlish text to Sinhala using a predefined set of rules. This method is efficient and provides quick translations based on specific patterns. To use this approach, the library provides a class `RuleBasedTransliterator`, which can be used as follows:
 
@@ -16,7 +16,7 @@ sinhala_text = transliterator.transliterator(singlish_text)
 print(sinhala_text)
 ```
 
-### 2. Machine Translation using FastText Model
+## 2. Machine Translation using FastText Model
 
 The **Machine Translation** approach using the FastText model involves leveraging word embeddings to enhance translation accuracy. This method uses FastText's pre-trained Sinhala word vectors to identify similar words for each word in the translated text. The process is as follows:
 
@@ -44,7 +44,7 @@ print(translated_text)
 FastText model can be downloaded by using the given url:
 [FastText Model](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.si.300.bin.gz)
 
-### 3. Hybrid Translation
+## 3. Hybrid Translation
 
 The **Hybrid Translation** approach combines the rule-based and machine translation methods to provide accurate and context-aware translations. This approach offers a balance between efficiency and accuracy. The `HybridTransliterator` class is also used for this approach:
 
@@ -57,7 +57,7 @@ singlish_text = "YOUR_SINGLISH_TEXT"
 sinhala_text = transliterator.transliterator(text=singlish_text)
 print(sinhala_text)
 ```
-#### 3.1. Machine Mask Translation
+### 3.1. Machine Mask Translation
 This function enhances machine-translated text by masking misspelled Sinhala words. It identifies misspelled Sinhala words and replaces them with a mask `"<mask>"` to improve text flow.
 
 ```python
@@ -70,7 +70,7 @@ masked_text = hybrid.machine_mask(text=rule_text)
 print(masked_text)
 ```
 
-#### 3.2. Machine Suggest Translation
+### 3.2. Machine Suggest Translation
 This function further refines machine-translated text by suggesting alternative words for masked words. It can be used in two different approaches through the library.
 
 Approach 1:
@@ -117,7 +117,7 @@ suggested_text = hybrid.machine_suggest(text=masked_text, changes=changes)
 print(suggested_text)
 ```
 
-#### Other optional parameters
+### Other optional parameters
 1. `prompt_masking: str` For change masking prompt from the default prompt
 2. `prompt_suggestion: str` For change word suggesting prompt from the default prompt
 
@@ -135,11 +135,11 @@ hybrid.view_prompt(level=level)
 Sure, here is the section for the Manual Translation component, including the steps you provided:
 
 
-### 4. Manual Translation
+## 4. Manual Translation
 
 The **Manual Translation** approach allows you to manually manipulate and modify translations according to your preferences. This can be useful for refining translations and making context-specific adjustments. The `ManualTransliterator` class provides various methods to aid in this process.
 
-#### 1. Generate Coordinates
+### 1. Generate Coordinates
 
 The first step in manual translation is generating coordinates for each word in the Sinhala text. Coordinates uniquely identify each word and its position in the text. This can be done using the `generate_coordinates` method. 
 
@@ -161,10 +161,10 @@ To visualize the coordinates, you can export them to a CSV file using the `to_cs
 manual.to_csv(dataframe=df, file="dataframe.csv")
 ```
 
-#### Other optional parameters
+### Other optional parameters
 1.  `max_columns: int` You can specify the maximum number of columns in the coordinate plane.
 
-#### 2. Replace Cells
+### 2. Replace Cells
 
 This method allows you to manually replace specific cells in the coordinate plane with desired words. You need to generate coordinates using the `generate_coordinates` method. Then, create a replacement dictionary where keys are the coordinates to be replaced and values are the replacement words. The `replace_cells` method returns a new dataframe with the changes applied.
 
@@ -193,7 +193,7 @@ original_df = manual.undo_changes(dataframe=changed_df, changes=track_changes)
 print(original_df)
 ```
 
-#### 3. Manual Masking
+### 3. Manual Masking
 
 Manual masking involves masking specific words in the coordinate plane to be replaced later. Similar to the previous steps, you generate coordinates using the `generate_coordinates` method. Specify the coordinates you want to mask, and then use the `manual_mask` method. The resulting `reconstructed_text` can be passed to the `machine_suggest` method from the Hybrid Translation approach to find the best-matching words for the masked positions.
 
@@ -212,7 +212,7 @@ print(reconstructed_text)
 # You can use machine_suggest to find matches for masked words
 ```
 
-#### 4. Reconstruct Text
+### 4. Reconstruct Text
 
 Finally, the `reconstruct_text` method allows you to convert the modified dataframe back into a text. This step completes the manual translation process.
 
@@ -262,15 +262,15 @@ To use the Singlish to Sinhala text conversion component of සිංLingua, fol
 
 4. Use the functions of the above mentioned classes accordingly
 
-## Note
+# Note
 
 - Make sure to replace `"YOUR_OPENAI_API_KEY"` and `"YOUR_ORGANIZATION_KEY"` with your actual OpenAI API key and organization key.
 
-## Contributing
+# Contributing
 
 Contributions to improve and expand සිංLingua are welcome! Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/yourusername/your-repo).
 
-## License
+# License
 
 This library is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
