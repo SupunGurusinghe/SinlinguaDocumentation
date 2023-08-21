@@ -1,3 +1,11 @@
 [![Previous](https://img.shields.io/badge/previous-green.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/2.%20Sinhala%20Audio%20to%20Text%20Conversion/README.md)
 [![Home](https://img.shields.io/badge/home-orange.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/blob/main/README.md)
 [![Next](https://img.shields.io/badge/next-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/4.%20Sinhala%20Text%20Preprocessing/README.md)
+
+
+
+
+
+[![Previous](https://img.shields.io/badge/previous-green.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/2.%20Sinhala%20Audio%20to%20Text%20Conversion/README.md)
+[![Home](https://img.shields.io/badge/home-orange.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/blob/main/README.md)
+[![Next](https://img.shields.io/badge/next-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/4.%20Sinhala%20Text%20Preprocessing/README.md)
