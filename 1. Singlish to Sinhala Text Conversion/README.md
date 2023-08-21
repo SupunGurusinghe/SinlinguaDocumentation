@@ -4,6 +4,7 @@ The Singlish to Sinhala text conversion component of සිංLingua offers mult
 
 **Usual tools**
 - "oyata den kohomada" -> ඔයට ඩෙන් කොහොමඩ
+
 **සිංLingua library**
 - "oyata den kohomada" -> ඔයාට දැන් කොහොමද (oyaata dhaen kohomadha)
 
