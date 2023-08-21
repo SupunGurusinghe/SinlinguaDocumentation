@@ -1,5 +1,5 @@
-[![Previous](https://img.shields.io/badge/previous-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/5.%20Sinhala%20Text%20Summarization#readme)
-[![Home](https://img.shields.io/badge/home-orange.svg)]([#introduction](https://github.com/SupunGurusinghe/SinlinguaDocumentation#readme))
+[![Previous](https://img.shields.io/badge/previous-green.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/5.%20Sinhala%20Text%20Summarization#readme)
+[![Home](https://img.shields.io/badge/home-orange.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation#readme)
 [![Next](https://img.shields.io/badge/next-blue.svg)](https://github.com/SupunGurusinghe/SinlinguaDocumentation/tree/main/2.%20Sinhala%20Audio%20to%20Text%20Conversion#readme)
 
 # Singlish to Sinhala Text Conversion
