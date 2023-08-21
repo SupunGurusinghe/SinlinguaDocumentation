@@ -121,7 +121,7 @@ print(suggested_text)
 1. `prompt_masking: str` For change masking prompt from the default prompt
 2. `prompt_suggestion: str` For change word suggesting prompt from the default prompt
 
-To view the default prompts:
+#### To view the default prompts:
 ```python
 from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
 
