@@ -2,6 +2,23 @@
 
 The Singlish to Sinhala text conversion component of සිංLingua offers multiple approaches to translate Singlish text to Sinhala. These approaches are designed to suit different requirements and accuracy levels.
 
+## Table of Contents
+- [Singlish to Sinhala Text Conversion](#singlish-to-sinhala-text-conversion)
+  - [1. Rule-Based Translation](#1-rule-based-translation)
+  - [2. Machine Translation using FastText Model](#2-machine-translation-using-fasttext-model)
+  - [3. Hybrid Translation](#3-hybrid-translation)
+    - [3.1. Machine Mask Translation](#31-machine-mask-translation)
+    - [3.2. Machine Suggest Translation](#32-machine-suggest-translation)
+      - [3.2.1. Approach 1](#321-approach-1)
+      - [3.2.2. Approach 2](#322-approach-2)
+  - [4. Manual Translation](#4-manual-translation)
+    - [1. Generate Coordinates](#1-generate-coordinates)
+    - [2. Replace Cells](#2-replace-cells)
+    - [3. Manual Masking](#3-manual-masking)
+    - [4. Reconstruct Text](#4-reconstruct-text)
+- [Getting Started](#getting-started)
+- [Note](#note)
+
 ## 1. Rule-Based Translation
 
 The **Rule-Based Translation** approach involves converting Singlish text to Sinhala using a predefined set of rules. This method is efficient and provides quick translations based on specific patterns. To use this approach, the library provides a class `RuleBasedTransliterator`, which can be used as follows:
@@ -73,7 +90,7 @@ print(masked_text)
 ### 3.2. Machine Suggest Translation
 This function further refines machine-translated text by suggesting alternative words for masked words. It can be used in two different approaches through the library.
 
-Approach 1:
+#### Approach 1:
 ```python
 from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
 from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
@@ -95,7 +112,7 @@ suggested_text = hybrid.machine_suggest(text=masked_text, changes=changes)
 print(suggested_text)
 ```
 
-Approach 2:
+#### Approach 2:
 ```python
 from sinhala_data_processor.singlish.rulebased_transliterator import RuleBasedTransliterator
 from sinhala_data_processor.singlish.hybrid_transliterator import HybridTransliterator
