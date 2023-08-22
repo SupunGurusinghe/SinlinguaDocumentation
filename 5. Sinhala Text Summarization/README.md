@@ -220,7 +220,7 @@ A more efficient variant of the Longformer summarizer.Incorporates techniques to
 To summarize by a specific word count:
 
 ```python
- from sinlingua.summarizer.longformer import FLongformerTextSummarizer
+ from sinlingua.summarizer.faster_longformer import FLongformerTextSummarizer
  text_summarizer = FLongformerTextSummarizer()
  sample_text = "YOUR_SINHALA_TEXT_PARAGRAPH"
 
@@ -233,7 +233,7 @@ To summarize by a specific word count:
 To translate the Sinhala summary into English:
 
 ```python
- from sinlingua.summarizer.longformer import FLongformerTextSummarizer
+ from sinlingua.summarizer.faster_longformer import FLongformerTextSummarizer
  text_summarizer = FLongformerTextSummarizer()
  sample_text = "YOUR_SINHALA_TEXT_PARAGRAPH"
 
@@ -259,7 +259,7 @@ To use the Sinhala Text Summarization & Translation component of සිංLingua
    from sinlingua.summarizer.bert import BertTextSummarizer
    from sinlingua.summarizer.longformer import LongformerTextSummarizer
    from sinlingua.summarizer.faster_bert import FBertTextSummarizer
-   from sinlingua.summarizer.longformer import FLongformerTextSummarizer
+   from sinlingua.summarizer.faster_longformer import FLongformerTextSummarizer
    
    ```
 
