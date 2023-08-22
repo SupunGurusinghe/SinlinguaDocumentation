@@ -176,9 +176,6 @@ manual = ManualTransliterator()
 sinhala_text = "YOUR_SINHALA_TEXT"
 df = manual.generate_coordinates(text=sinhala_text, max_columns=20)
 print(df)
-
-# Export coordinates to a CSV file
-manual.to_csv(dataframe=df, file="dataframe.csv")
 ```
 
 To visualize the coordinates, you can export them to a CSV file using the `to_csv` method.
