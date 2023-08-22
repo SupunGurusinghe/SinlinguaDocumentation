@@ -12,7 +12,7 @@ The Sinhala Text Summarization & Translation component of සිංLingua offers
 
 
 ## Table of Contents
-- [Sinhala Text Summarization & Translation](#sinhla-text-summarization-and-translation)
+- [Sinhala Text Summarization & Translation](#sinhla-text-summarization-&-translation)
   - [1. TF-IDF Summarizer](#1-tf-idf-model)
     - [1.1. Summarized By Precentage](#11-summarized-by-percentage)
     - [1.2. Summarized By Word Count Limit](#12-summarized-by-word-count-limit)
