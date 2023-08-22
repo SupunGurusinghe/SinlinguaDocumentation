@@ -200,8 +200,8 @@ df = manual.generate_coordinates(text=sinhala_text)
 print(df)
 
 replacement_dictionary = {
-    (0, 1): "MISSPELLED_WORD", # (0, 1) is a coordinate which represents row 0, column 1
-    (0, 7): "MISSPELLED_WORD" # (0, 7) is a coordinate which represents row 0, column 7
+    (0, 1): "WORD_TO_BE_REPLACED", # (0, 1) is a coordinate which represents row 0, column 1
+    (0, 7): "WORD_TO_BE_REPLACED" # (0, 7) is a coordinate which represents row 0, column 7
 }
 
 changed_df, track_changes = manual.replace_cells(dataframe=df, replacement_dict=replacement_dictionary)
