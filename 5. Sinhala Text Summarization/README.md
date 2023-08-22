@@ -59,7 +59,7 @@ print(summary)
 To summarize by a specific word count:
 
 ```python
- from sinlingua.summarizer.tf_idf import IFIDFTextSummarizer
+ from sinlingua.summarizer.tf_idf import TFIDFTextSummarizer
  text_summarizer = TFIDFTextSummarizer()
  sample_text = "YOUR_SINHALA_TEXT_PHARAGRAPH"
 
@@ -72,7 +72,7 @@ To summarize by a specific word count:
 To translate the Sinhala summary into English:
 
 ```python
- from sinlingua.summarizer.tf_idf import IFIDFTextSummarizer
+ from sinlingua.summarizer.tf_idf import TFIDFTextSummarizer
  text_summarizer = TFIDFTextSummarizer()
  sample_text = "YOUR_SINHALA_TEXT_PARAGRAPH"
 
@@ -255,7 +255,7 @@ To use the Sinhala Text Summarization & Translation component of සිංLingua
 2. Import the required classes for the chosen translation approach:
    ```python
    
-   from sinlingua.summarizer.tf_idf import IFIDFTextSummarizer   
+   from sinlingua.summarizer.tf_idf import TFIDFTextSummarizer   
    from sinlingua.summarizer.bert import BertTextSummarizer
    from sinlingua.summarizer.longformer import LongformerTextSummarizer
    from sinlingua.summarizer.faster_bert import FBertTextSummarizer
