@@ -46,7 +46,7 @@ Suitable for shorter texts where context and semantic understanding may not be a
 To summarize by a certain percentage of the original text:
 
 ```python
-from sinlingua.summarizer.tf_idf import IFIDFTextSummarizer
+from sinlingua.summarizer.tf_idf import TFIDFTextSummarizer
 text_summarizer = TFIDFTextSummarizer()
 sample_text = "YOUR_SINHALA_TEXT_PARAGRAPH"
 
