@@ -13,7 +13,7 @@ The Sinhala Text Summarization & Translation component of සිංLingua offers
 
 ## Table of Contents
 - [Sinhala Text Summarization & Translation](#sinhla-text-summarization-&-translation)
-  - [1. TF-IDF Summarizer](#1-tf-idf-model)
+  - [1. TF-IDF Summarizer](#1-tf-idf-summarizer)
     - [1.1. Summarized By Precentage](#11-summarized-by-percentage)
     - [1.2. Summarized By Word Count Limit](#12-summarized-by-word-count-limit)
     - [1.3. Language Translation](#13-language-translation)
@@ -36,7 +36,7 @@ The Sinhala Text Summarization & Translation component of සිංLingua offers
 - [Note](#note)
 
 
-## 1.TF-IDF Summarizer
+## 1. TF-IDF Summarizer
 
 A traditional method for text summarization.Uses the Term Frequency-Inverse Document Frequency algorithm to evaluate the importance of sentences.
 Suitable for shorter texts where context and semantic understanding may not be as crucial.To use this approach, the library provides a class `TFIDFTextSummarizer`, which can be used as follows:
