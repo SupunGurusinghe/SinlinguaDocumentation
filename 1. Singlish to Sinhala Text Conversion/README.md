@@ -111,7 +111,7 @@ manual = ManualTransliterator()
 
 # using manual_mask with generated coordinates
 rule_text = "YOUR_SINGLISH_TEXT"
-rule_based_output = rulebased.transliterator(rule_text)
+rule_based_output = rulebased.transliterator(text=rule_text)
 coordinates_df = manual.generate_coordinates(text=rule_based_output)
 # coordinates of words to be masked can be found by printing coordinates_df.
 # ex: [(row, column), (row, column)]
