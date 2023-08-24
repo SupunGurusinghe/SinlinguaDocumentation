@@ -280,11 +280,12 @@ To use the Sinhala Text Summarization & Translation component of සිංLingua
 
 # Note
 
-- BERT Limit: Remember that the BERT model has a maximum token limit (512 tokens for bert-base-multilingual-uncased). Extremely lengthy sentences or paragraphs     may be truncated, which might affect the quality of the embeddings and, thus, the summary.
+- BERT Limit: Remember that the BERT model has a maximum token limit (512 tokens for bert-base-multilingual-uncased). Extremely lengthy sentences or 
+  paragraphs may be truncated, which might affect the quality of the embeddings and, thus, the summary.
 - Tips:
   For lengthy texts, consider breaking them down into smaller chunks or paragraphs and processing them separately.
 - longformer summarization model address the issue of bert summarization limitations.
-- mostly recomond longformer, faster longformer version, bert summarizer and faster bert summarizer version.
+- mostly recomond longformer, faster longformer version,TF-IDF version for the long document summarization.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Example Usage
